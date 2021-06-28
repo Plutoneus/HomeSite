@@ -17,6 +17,23 @@ body {
     padding: 1em;
 }
 
+.closure {
+  margin: auto;
+  width: 75%; // ALWAYS BIGGER THAN..
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  border: 2px solid black;
+  justify-content: center;
+}
+
+img {
+  width: 50%; // THIS
+  margin: .25em;
+  padding: 2em;
+}
+
 h1 {
     font-size: 28px;
     padding: 0.5em;
